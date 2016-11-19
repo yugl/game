@@ -1,3 +1,173 @@
-.demo{
-	background-color: #333;
+@import url("flex-layout.css");
+@import url("font-awesome/font-awesome.css");
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    height: 100%;
+    overflow: auto;
+}
+
+div,
+p,
+span,
+ul,
+li,
+form,
+input,
+button,
+a {
+    font-family: '微软雅黑'
+}
+
+iframe{
+    width: 100%; height: 100%; border: 0;
+}
+/*游戏类型*/
+
+.box-gametype .link-item {
+	display: block;
+	margin: 0 5px;
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+    color: #fff; 
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+.box-gametype .link-item:hover{
+	opacity: .8;
+}
+.box-gametype .link-item.active{
+    border-color: #444;
+}
+.iframe-group{
+    margin: 5px;
+    height: calc(100% - 150px);
+}
+
+/*==================gloable 全局共享
+/*浅色*/
+
+.bg-turquoise {
+    background-color: #1ABC9C;
+    color: #fff;
+}
+
+.bg-emerland {
+    background-color: #2ECC71;
+    color: #fff;
+}
+
+.bg-peter-river {
+    background-color: #3498DB;
+    color: #fff;
+}
+
+.bg-amethyst {
+    background-color: #9B59B6;
+    color: #fff;
+}
+
+.bg-wet-asphalt {
+    background-color: #34495E;
+    color: #fff;
+}
+
+
+/*深色*/
+
+.bg-green-sea {
+    background-color: #16A085;
+    color: #fff;
+}
+
+.bg-nephritis {
+    background-color: #27AE60;
+    color: #fff;
+}
+
+.bg-belize-hole {
+    background-color: #2980B9;
+    color: #fff;
+}
+
+.bg-wisteria {
+    background-color: #8E44AD;
+    color: #fff;
+}
+
+.bg-midnight-blue {
+    background-color: #2C3E50;
+    color: #fff;
+}
+
+
+/*浅色*/
+
+.bg-sun-flower {
+    background-color: #F1C40F;
+    color: #fff;
+}
+
+.bg-carrot {
+    background-color: #E67E22;
+    color: #fff;
+}
+.text-carrot {
+    color: #E67E22; 
+}
+.bg-alizarin {
+    background-color: #E74C3C;
+    color: #fff;
+}
+
+.bg-clouds {
+    background-color: #ECF0F1;
+    color: #fff;
+}
+
+.bg-concrete {
+    background-color: #95A5A6;
+    color: #fff;
+}
+
+
+/*深色*/
+
+.bg-orange {
+    background-color: #F39C12;
+    color: #fff;
+}
+.text-orange{
+    color: #F39C12;
+}
+.bg-pumpkin {
+    background-color: #D35400;
+    color: #fff;
+}
+
+.bg-pomegranate {
+    background-color: #C0392B;
+    color: #fff;
+}
+
+.bg-silver {
+    background-color: #BDC3C7;
+    color: #fff;
+}
+
+.bg-asbestos {
+    background-color: #7F8C8D;
+    color: #fff;
 }
